@@ -8,5 +8,5 @@ public class StinToTestImpl implements IStinToTest {
         return a + b;
     }
 
-    public int sum(float a, float b) { return (int)(a + b); }
+    public int sum(int a, float b) { return (int)(a + b); }
 }
