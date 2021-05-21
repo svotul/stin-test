@@ -7,4 +7,6 @@ public class StinToTestImpl implements IStinToTest {
     public int sum(int a, int b) {
         return a + b;
     }
+
+    public int sum(float a, float b) { return (int)(a + b); }
 }
